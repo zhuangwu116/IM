@@ -1,6 +1,7 @@
 package com.zhuangwu.xmpp.im.pro.base.model;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 
 import com.zhuangwu.xmpp.im.mvp.model.MvpModel;
 
@@ -9,7 +10,7 @@ import com.zhuangwu.xmpp.im.mvp.model.MvpModel;
  */
 public abstract class BaseModel implements MvpModel{
     private Context context;
-    public BaseModel(Context context){
+    public BaseModel(@NonNull Context context){
         this.context=context;
     }
 }

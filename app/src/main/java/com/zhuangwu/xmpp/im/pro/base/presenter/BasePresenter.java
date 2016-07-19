@@ -1,6 +1,7 @@
 package com.zhuangwu.xmpp.im.pro.base.presenter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 
 import com.zhuangwu.xmpp.im.mvp.presenter.impl.MvpBasePresenter;
 import com.zhuangwu.xmpp.im.pro.base.model.BaseModel;
@@ -11,7 +12,7 @@ import com.zhuangwu.xmpp.im.pro.base.model.BaseModel;
 public abstract class BasePresenter<M extends BaseModel> extends MvpBasePresenter {
     private Context context;
     private M model;
-    public BasePresenter(Context context){
+    public BasePresenter(@NonNull Context context){
         this.context=context;
         this.model=bindModel();
     }
