@@ -35,5 +35,5 @@ dependencies {
     compile "org.igniterealtime.smack:smack-tcp:$rootProject.ext.smackVersion"
     compile "org.igniterealtime.smack:smack-im:$rootProject.ext.smackVersion"
     compile "org.igniterealtime.smack:smack-extensions:$rootProject.ext.smackVersion"
-
+    compile "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
 }

@@ -31,4 +31,5 @@ ext{
     supportLibraryVersion='24.0.0'
 
     smackVersion='4.1.0'
+    butterknifeVersion='7.0.1'
 }
