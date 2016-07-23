@@ -8,4 +8,7 @@
     <color name="login_button_color_normal">#DE6262</color>
     <color name="login_button_color_press">#DD5858</color>
 
+    <color name="main_bottom_text_normal">#ff847d7b</color>
+    <color name="main_bottom_text_select">#ff333333</color>
+    <color name="main_bottom_bg">#11000000</color>
 </resources>

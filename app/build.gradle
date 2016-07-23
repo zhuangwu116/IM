@@ -36,4 +36,5 @@ dependencies {
     compile "org.igniterealtime.smack:smack-im:$rootProject.ext.smackVersion"
     compile "org.igniterealtime.smack:smack-extensions:$rootProject.ext.smackVersion"
     compile "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
 }
